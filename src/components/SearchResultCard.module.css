@@ -10,8 +10,7 @@
   cursor: pointer;
 }
 
-.card:hover,
-.card:focus {
+.card:hover {
   outline: none;
   background-color: #d3d9e2;
   border-bottom: 1px solid #a1a6ad;
