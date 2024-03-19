@@ -1,0 +1,37 @@
+.search-results {
+  background-color: white;
+  border: 1px solid #a1a6ad;
+  border-radius: 0.75rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  display: flex;
+  flex-direction: column;
+
+  max-height: 20rem;
+  overflow-y: auto;
+
+  visibility: hidden;
+}
+
+.search-results ul:focus {
+  outline: none;
+}
+
+.loading {
+  background-color: white;
+  border: 1px solid #a1a6ad;
+  border-radius: 0.75rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #334155;
+  padding: 0.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}

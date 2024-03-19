@@ -1,0 +1,55 @@
+.card {
+  width: 100%;
+  padding: 0.5rem 1rem;
+
+  display: flex;
+  gap: 1rem;
+
+  border-bottom: 1px solid #a1a6ad;
+  transition: background-color 150ms;
+  cursor: pointer;
+}
+
+.card:hover,
+.card:focus {
+  outline: none;
+  background-color: #d3d9e2;
+  border-bottom: 1px solid #a1a6ad;
+}
+
+.card:last-child {
+  border-bottom: none;
+}
+
+.card input {
+  cursor: pointer;
+}
+
+.card-image {
+  background-color: rgb(209 213 219);
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 0.35rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.name {
+  font-size: 1rem;
+  color: #334155;
+}
+
+.episode {
+  font-size: 0.8rem;
+  color: #818181;
+}
+
+.selected {
+  background-color: pink !important;
+}
